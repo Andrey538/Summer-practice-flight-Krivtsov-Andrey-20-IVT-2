@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\Client.vcxproj", "{EE37A142-7934-48B4-863B-6CDEB680538E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Server", "Server\Server.vcxproj", "{9D6DB822-7ADA-41EE-BEC2-98CB718853A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Net", "Net", "{0CD63F81-3004-43D3-BDAB-F6E523EC12D5}"
+	ProjectSection(SolutionItems) = preProject
+		Net\Package.h = Net\Package.h
+		Net\Requests.h = Net\Requests.h
+		Net\Socket.h = Net\Socket.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sys", "Sys", "{12618A4A-0674-4BAB-866B-2DAB357D6B37}"
+	ProjectSection(SolutionItems) = preProject
+		Sys\ByteBuffer.h = Sys\ByteBuffer.h
+		Sys\File.h = Sys\File.h
+		Sys\Log.h = Sys\Log.h
+		Sys\PictureHandler.h = Sys\PictureHandler.h
+		Sys\Timer.h = Sys\Timer.h
+		Sys\Types.h = Sys\Types.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE37A142-7934-48B4-863B-6CDEB680538E}.Debug|x64.ActiveCfg = Debug|x64
+		{EE37A142-7934-48B4-863B-6CDEB680538E}.Debug|x64.Build.0 = Debug|x64
+		{EE37A142-7934-48B4-863B-6CDEB680538E}.Debug|x86.ActiveCfg = Debug|Win32
+		{EE37A142-7934-48B4-863B-6CDEB680538E}.Debug|x86.Build.0 = Debug|Win32
+		{EE37A142-7934-48B4-863B-6CDEB680538E}.Release|x64.ActiveCfg = Release|x64
+		{EE37A142-7934-48B4-863B-6CDEB680538E}.Release|x64.Build.0 = Release|x64
+		{EE37A142-7934-48B4-863B-6CDEB680538E}.Release|x86.ActiveCfg = Release|Win32
+		{EE37A142-7934-48B4-863B-6CDEB680538E}.Release|x86.Build.0 = Release|Win32
+		{9D6DB822-7ADA-41EE-BEC2-98CB718853A5}.Debug|x64.ActiveCfg = Debug|x64
+		{9D6DB822-7ADA-41EE-BEC2-98CB718853A5}.Debug|x64.Build.0 = Debug|x64
+		{9D6DB822-7ADA-41EE-BEC2-98CB718853A5}.Debug|x86.ActiveCfg = Debug|Win32
+		{9D6DB822-7ADA-41EE-BEC2-98CB718853A5}.Debug|x86.Build.0 = Debug|Win32
+		{9D6DB822-7ADA-41EE-BEC2-98CB718853A5}.Release|x64.ActiveCfg = Release|x64
+		{9D6DB822-7ADA-41EE-BEC2-98CB718853A5}.Release|x64.Build.0 = Release|x64
+		{9D6DB822-7ADA-41EE-BEC2-98CB718853A5}.Release|x86.ActiveCfg = Release|Win32
+		{9D6DB822-7ADA-41EE-BEC2-98CB718853A5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F13BF27B-A5E7-45CC-8E6D-896BCE2B89C6}
+	EndGlobalSection
+EndGlobal

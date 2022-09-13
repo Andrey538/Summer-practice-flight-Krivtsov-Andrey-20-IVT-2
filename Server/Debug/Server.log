@@ -1,0 +1,9 @@
+﻿  main.cpp
+C:\cpp\NetJourney\Sys\Timer.h(17,15): warning C4244: инициализация: преобразование "_Rep" в "double", возможна потеря данных
+          with
+          [
+              _Rep=__int64
+          ]
+C:\cpp\NetJourney\Server\Server.h(338,32): warning C4101: e: неиспользованная локальная переменная
+C:\cpp\NetJourney\Server\Server.h(384,33): warning C4101: e: неиспользованная локальная переменная
+  Server.vcxproj -> C:\cpp\NetJourney\Debug\Server.exe

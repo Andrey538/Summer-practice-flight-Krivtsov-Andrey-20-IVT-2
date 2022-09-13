@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\cpp\NetJourney\Sys\File.h(53,13): warning C4244: инициализация: преобразование "std::streamoff" в "int", возможна потеря данных
+C:\cpp\NetJourney\Client\Client.h(149,34): warning C4018: <: несоответствие типов со знаком и без знака
+C:\cpp\NetJourney\Client\Client.h(201,34): warning C4018: <: несоответствие типов со знаком и без знака
+  Client.vcxproj -> C:\cpp\NetJourney\Debug\Client.exe

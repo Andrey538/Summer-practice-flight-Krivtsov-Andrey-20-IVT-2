@@ -1,0 +1,10 @@
+﻿  main.cpp
+C:\cpp\NetJourney\Sys\File.h(53,13): warning C4244: инициализация: преобразование "std::streamoff" в "int", возможна потеря данных
+C:\Образование Андрей НГТУ\2 курс\4 семестр\Практика летняя\Отчет\программа 28\Client\Client.h(149,34): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Образование Андрей НГТУ\2 курс\4 семестр\Практика летняя\Отчет\программа 28\Client\Client.h(201,34): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода
+  38 of 273 functions (13.9%) were compiled, the rest were copied from previous compilation.
+    15 functions were new in current compilation
+    28 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Client.vcxproj -> C:\Образование Андрей НГТУ\2 курс\4 семестр\Практика летняя\Отчет\программа 28\Release\Client.exe
